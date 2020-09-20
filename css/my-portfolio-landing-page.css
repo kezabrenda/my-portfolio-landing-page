@@ -319,7 +319,7 @@ header {
 }
 
 
-my-services {
+.my-services {
     background-color: var(--clr-dark);
     background-image: url(../images/bgImg.jpg);
     background-size: cover;
