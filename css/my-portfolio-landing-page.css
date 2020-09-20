@@ -14,7 +14,7 @@
     --fw-bold: 900;
 
     --clr-ligthbg: #D9B08C;
-    --clr-darkbg: #116466;
+    --clr-darkb: #1C3334;
     --clr-accentb: #FFCB9A;
     
     --clr-light: #fff; 
@@ -46,8 +46,8 @@ html {
 }
 
 body {
-    background: var(--clr-darkbg);
-    color: var(--clr-lightbg);
+    background: var(--clr-ligthbg);
+    color: var(--clr-darkb);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -78,7 +78,7 @@ strong { font-weight: var(--fw-bold) }
 
 .btn {
     display: inline-block;
-    padding: .5em 2.5em;
+    padding: .5em 2em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -156,7 +156,7 @@ header {
 }
 
 .nav {
-    position: fixed;
+    position: relative;
     background: var(--clr-dark);
     color: var(--clr-light);
     top: 0; 
