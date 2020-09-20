@@ -475,7 +475,7 @@ header {
 }
 
 .footer__link:hover {
-    text-decoration: underline;
+    text-decoration: wavy;
 }
 
 .social-list {
@@ -487,7 +487,7 @@ header {
 }
 
 .social-list__item {
-    margin: 0 .5em;
+    margin: 1em;
 }
 
 .social-list__link {
