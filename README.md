@@ -1,8 +1,8 @@
 # MY PORTFOLIO LANDING PAGE
 ## WELCOME TO MY PAGE
 
-**Author's Name: 
-*Brenda UMUTONIWASE KEZA* **
+* Author's Name: 
+* Brenda UMUTONIWASE KEZA
 
 
 **PROJECT DESCRIPTION :**
