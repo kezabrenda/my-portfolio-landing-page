@@ -192,7 +192,7 @@ ul li a {
     background: var(--clr-ligthbg);
     opacity: 0.3;
     border-radius: 50%;
-    animation: circle 15s linear infinite;
+    animation: cir1cle 20s linear infinite;
     transition: 1s;
 }
 .circle2 {
@@ -204,7 +204,7 @@ ul li a {
     background: var(--clr-ligthbg);
     opacity: 0.5;
     border-radius: 50%;
-    animation: circle 15s linear infinite;
+    animation: cir2cle 15s linear infinite;
     transition: 1s;
 }
 .circle3 {
@@ -216,10 +216,24 @@ ul li a {
     background: rgba(102, 51, 153, 0.726);
     opacity: 0.5;
     border-radius: 50%;
-    animation: circle 15s linear infinite;
+    animation: cir3cle 15s linear infinite;
     transition: 1s;  
 }
-
+@keyframes cir1cle {
+    100%{
+        transform: translateX(800px) translateY(-800px);
+    }
+}
+@keyframes cir2cle {
+    100%{
+        transform: translateX(1430px) translateY(-120px);
+    }
+}
+@keyframes cir3cle {
+    100%{
+        transform: translateX(-1370px) translateY(120px);
+    }
+}
 
 .nav-open .icecream {
     transform: rotate(.625turn);
